@@ -103,7 +103,7 @@ class DataManager {
         this.lastUpdate = null;
         this.updateCallbacks = [];
         this.baseAssetValue = 140; // 基础资产价值 (USDT)
-        this.baseDate = new Date('2025-10-25T00:00:00+08:00'); // 基准日期
+        this.baseDate = new Date('2025-10-27T00:00:00+08:00'); // 基准日期
     }
 
     // 注册数据更新回调
