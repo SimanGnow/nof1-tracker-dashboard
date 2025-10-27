@@ -102,7 +102,7 @@ class DataManager {
         };
         this.lastUpdate = null;
         this.updateCallbacks = [];
-        this.baseAssetValue = 140; // 基础资产价值 (USDT)
+        this.baseAssetValue = 118; // 基础资产价值 (USDT)
         this.baseDate = new Date('2025-10-27T00:00:00+08:00'); // 基准日期
     }
 
@@ -118,7 +118,6 @@ class DataManager {
 
     // 获取基础资产价值
     getBaseAssetValue() {
-        // 2025年10月25日的初始钱包余额：140 USDT
         // 这是基于用户提供的真实历史数据
         return this.baseAssetValue;
     }
