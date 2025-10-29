@@ -147,6 +147,8 @@ class DataManager {
             this.data.allTrades = allTradesData; // 保存所有交易记录
             this.lastUpdate = new Date();
 
+            console.log("账户数据", accountData)
+
             // 计算并添加盈亏分析
             this.calculateProfitMetrics();
 
